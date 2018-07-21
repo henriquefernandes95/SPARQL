@@ -22,6 +22,6 @@ public class QuerySPARQL {
     public void printResult(){
         result = queryExecution.execSelect();
         ResultSetFormatter.out(System.out, result, query);
-        
+
     }
 }
